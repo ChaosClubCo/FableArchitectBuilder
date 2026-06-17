@@ -1,0 +1,20 @@
+# FableRealm: Castle Builder
+
+> Establish a magical kingdom, manage ancient mana, and grow your fairytale village under the guidance of the Royal Wizard.
+
+## Core Documentation
+- [Policy](docs/DOC_POLICY.md): Governance and provenance rules.
+- [Security](docs/SECURITY.md): Threat model and safety.
+- [Architecture](docs/ARCHITECTURE.md): System design and boundaries.
+- [Framework](docs/FRAMEWORK.md): Tech stack and tools.
+- [Changelog](docs/CHANGELOG.md): Version history.
+
+## Agents
+- [Documentation Authority](docs/AGENTS_DOCUMENTATION_AUTHORITY.md): System prompt for docs governance.
+
+<!--
+Source: standard
+Locator: llms.txt
+Confidence: HIGH
+Last Verified: 2023-10-27
+-->

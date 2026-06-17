@@ -1,0 +1,20 @@
+{
+  "name": "KeysKingdom",
+  "short_name": "KeysKingdom",
+  "description": "Unlock the secrets of the First Crown and build a legendary realm.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0a09",
+  "theme_color": "#f59e0b",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3721/3721591.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

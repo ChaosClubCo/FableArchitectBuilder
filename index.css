@@ -1,0 +1,54 @@
+/* Custom elegant scrollbars for gaming feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.4);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(245, 158, 11, 0.25);
+  border: 1px solid rgba(251, 191, 36, 0.1);
+  border-radius: 999px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 158, 11, 0.5);
+  border-color: rgba(251, 191, 36, 0.2);
+}
+
+/* Hide scrollbars for toolbars and categories */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none !important;  /* IE and Edge */
+  scrollbar-width: none !important;  /* Firefox */
+}
+
+/* Apply beautiful base typography smoothing */
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Add custom animations for fairytale visual cues */
+@keyframes pulseGlow {
+  0%, 100% {
+    text-shadow: 0 0 5px rgba(251, 191, 36, 0.4), 0 0 12px rgba(251, 191, 36, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(251, 191, 36, 0.7), 0 0 24px rgba(251, 191, 36, 0.4);
+  }
+}
+
+.magic-glow {
+  animation: pulseGlow 3s infinite ease-in-out;
+}

@@ -1,11 +1,25 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# KeysKingdom: The Arcane Architect
 
-  <h1>Built with AI Studio</h2>
+KeysKingdom is a production-grade city-builder and simulation built with React, Three.js, and Google Gemini.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🌟 Key Features
+- **3D Isometric Engine**: High-performance rendering via `@react-three/fiber` with dynamic lighting.
+- **Composite Building System**: Unique variations per building type.
+- **AI Oracle**: Integration with Gemini-3 Flash for dynamic quests and news.
+- **KeysGrimoire (Terminal)**: A developer console accessible via the backtick (`) key.
+- **PWA Ready**: Offline session persistence and standalone installation support.
+- **Advanced Simulation**: Multi-factor happiness metrics.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🛠 Tech Stack
+- **Frontend**: React 19, Tailwind CSS
+- **Graphics**: Three.js, R3F
+- **Intelligence**: Google GenAI SDK (Gemini-3 Flash)
+- **Persistence**: IndexedDB via Dexie.js
 
-</div>
+## 🕹 Terminal Commands
+Access the console using the `~` or `` ` `` key.
+- `scry [query]`: Ask the Keeper of Keys for lore.
+- `gift [amount]`: Infuse the treasury with gold.
+- `stats`: Export the current kingdom state.
+- `weather [type]`: Control the spirits (clear, rain, storm).

@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeysKingdom: The Arcane Architect</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;700&display=swap">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                        serif: ['Cinzel', 'Georgia', 'ui-serif', 'serif'],
+                        mono: ['"Fira Code"', 'SFMono-Regular', 'Menlo', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+    <meta name="theme-color" content="#f59e0b">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3721/3721591.png">
+    <style>
+        /* Hide scrollbar for main view to act like a game canvas */
+        body { 
+            overflow: hidden; 
+            background-color: #0c0a09; 
+            margin: 0;
+            padding: 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
+    "three": "https://aistudiocdn.com/three@^0.173.0",
+    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.0.0",
+    "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^10.0.0",
+    "vite": "https://esm.sh/vite@^7.3.0",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
+    "vite-plugin-pwa": "https://esm.sh/vite-plugin-pwa@^1.2.0",
+    "dexie": "https://esm.sh/dexie@^4.0.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
